@@ -205,7 +205,7 @@ class PointCloudViewer_PyQtW(QWidget):
                 for j in range(projectionMatrix.shape[1]):
                     x = projectionMatrix[0][j]
                     y = projectionMatrix[1][j]
-                    painter.drawPoint(x,y)
+                    painter.drawPoint(int(x),int(y))
         painter.end()
 
 
