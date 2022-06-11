@@ -1,8 +1,5 @@
 from PointCloudViewer_PyQtW import *
 import sys
-import math
-import time
-import numpy as np
 
 class PointCloudViewer_PyQtW_Ex(QtWidgets.QMainWindow):
     def __init__(self,*args,**kwargs):
