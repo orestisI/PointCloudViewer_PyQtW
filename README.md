@@ -17,7 +17,7 @@ pip3 install pye57
 ##  Usage
 ```python
 ...
-self.pointCloudViewer_PyQtW = PointCloudViewerPyQtW()
+self.pointCloudViewer_PyQtW = PointCloudViewer_PyQtW()
 self.setCentralWidget(self.pointCloudViewer_PyQtW)
 ...
 
