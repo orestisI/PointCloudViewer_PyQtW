@@ -2,19 +2,32 @@
 Point Cloud Viewer Widget (Qt)
 ![Bunny](./Images/bunny.png)
 
-##Description
-This is a description
+##  Description
+Python (Qt) Widget that can be used to view point clouds.
 
-##Install Dependencies
+##  Install Dependencies
 
 ```bash
+pip3 install PyQt5
 pip3 install numpy
 pip3 install pye57
 
 ```
 
-##Usage
+##  Usage
 ```python
+...
+self.pointCloudViewer_PyQtW = PointCloudViewerPyQtW()
+self.setCentralWidget(self.pointCloudViewer_PyQtW)
+...
 
+...
+self.pointCloudViewer_PyQtW.ImportE57("path/to/e57/file")
+...
 
+```
+
+## Example
+```bash
+python3 PointCloudViewer_PyQtW_Ex.py
 ```
